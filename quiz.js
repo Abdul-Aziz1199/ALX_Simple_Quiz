@@ -6,8 +6,7 @@
 
     let correctAnswer = "4";
 
- let  userAnswer = document.querySelector('input[name="quiz"]').value ;
- console.log(userAnswer);
+    let  userAnswer = document.querySelector('input[name="quiz"]').value ;
     if (userAnswer === correctAnswer){
         document.getElementById("feedback").textContent = "Correct! Well done";
     }
